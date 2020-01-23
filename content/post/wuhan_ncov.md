@@ -26,6 +26,10 @@ summary = "test"
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /alert %}}
 
+{{<echarts height="500">}}
+	{"title":{"text":"ECharts 入门示例"},"tooltip":{},"legend":{"data":["销量"]},"xAxis":{"data":["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]},"yAxis":{},"series":[{"name":"销量","type":"bar","data": [5, 20, 36, 10, 10, 20]}]}
+{{</echarts>}}
+
 ### 直属事业单位	
 {{<echarts height="400">}}
 {"title":{"text":"ECharts333","subtext": "纯属虚构"},
