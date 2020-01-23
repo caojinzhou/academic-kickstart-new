@@ -30,7 +30,7 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 {{<echarts height="400">}}
 {"title":{"text":"ECharts333","subtext": "纯属虚构"},
 "tooltip":{},"legend":{"data":["展现","点击","访问","咨询","订单"]},
-"series":[{"name":"销量","type":"funnel",
+"series":[{"name":"shuju","type":"funnel",
 			"left": "10%",
             "top": 60,
             "bottom": 60,
