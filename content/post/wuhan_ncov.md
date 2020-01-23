@@ -10,8 +10,6 @@ summary = "test"
 
 +++
 
-
-
 ## 国务院系统
 
 > 请点击对应部门即可查询三定方案全文。
@@ -19,10 +17,6 @@ summary = "test"
 ### 组成部门
 
 {{<echarts height="500">}}
-	{"title":{"text":"ECharts 入门示例"},"tooltip":{},"legend":{"data":["销量"]},"xAxis":{"data":["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]},"yAxis":{},"series":[{"name":"销量","type":"bar","data": [5, 20, 36, 10, 10, 20]}]}
-{{</echarts>}}
-
-{{<echarts height="501">}}
 	{"title":{"text":"ECharts 入门示例"},"tooltip":{},"legend":{"data":["销量"]},"xAxis":{"data":["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]},"yAxis":{},"series":[{"name":"销量","type":"bar","data": [5, 20, 36, 10, 10, 20]}]}
 {{</echarts>}}
 
@@ -58,11 +52,11 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /alert %}}
 
-{{<echarts height="300">}}
+{{<echarts height="502">}}
 	{"title":{"text":"ECharts 555"},
-	"tooltip":{},
+	"tooltip":{"position": "top"},
 	"animation": "false",
-	"grid":{"height":0.5,"top":0.1},
+	"grid":{"height":"50%","top":"10%"},
 	"xAxis":{"type":"category",
 			 "data":["12a", "1a", "2a", "3a", "4a", "5a","6a",
         "7a", "8a", "9a","10a","11a",
@@ -71,7 +65,7 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 			 "splitArea":{"show":"true"}},
 	"yAxis":{"type":"category",
 			 "data":["Saturday", "Friday", "Thursday",
-        'Wednesday', "Tuesday", "Monday", "Sunday"],
+        "Wednesday", "Tuesday", "Monday", "Sunday"],
 			 "splitArea":{"show":"true"}},
 	"visualMap": {
         "min": 0,
