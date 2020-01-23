@@ -28,12 +28,13 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 {{% /alert %}}
 
 {{<echarts height="500">}}
-	{"title":{"text":"ECharts 入门示例"},"tooltip":{},"legend":{"data":["销量"]},"xAxis":{"data":["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]},"yAxis":{},"series":[{"name":"销量","type":"bar","data": [5, 20, 70, 10, 10, 20]}]}
+	{"title":{"text":"ECharts 入门示例2"},
+	"tooltip":{},"legend":{"data":["销量2"]},"xAxis":{"data":["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]},"yAxis":{},"series":[{"name":"销量2","type":"bar","data": [5, 20, 70, 10, 10, 20]}]}
 {{</echarts>}}
 
 ### 直属事业单位	
 {{<echarts height="400">}}
-{"title":{"text":"ECharts 入门示例","subtext": "纯属虚构"},
+{"title":{"text":"ECharts333","subtext": "纯属虚构"},
 "tooltip":{},"legend":{"data":["展现","点击","访问","咨询","订单"]},
 "series":[{"name":"销量","type":"funnel",
 			"left": "10%",
@@ -60,7 +61,7 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 {{% /alert %}}
 
 {{<echarts height="500">}}
-	{"title":{"text":"ECharts 入门示例"},
+	{"title":{"text":"ECharts 555"},
 	"tooltip":{"position": "top"},
 	"animation": "false",
 	"grid":{"height":0.5,"top":0.1},
