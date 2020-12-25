@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "caojinzhou2011@gmail.com"
-phone = "888 888 88 88"
+phone = ""
 address = "Room 1402, HuiXing Building, Shenzhen University, Guangdong, 518060, China"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
